@@ -70,15 +70,17 @@
 						<!-- Contact -->
 							<article id="contact">
 								<h2 class="major">Contact</h2>
-								<form method="post" action="contact.php">
+								<form method="post" action="https://formsubmit.co/honeycode.ridge@gmail.com">
+									<input type="hidden" name="_captcha" value="false">
+									<input type="hidden" name="_next" value="https://honeycoderidge.github.io/#contact">
 									<div class="fields">
 										<div class="field half">
 											<label for="name">Name</label>
-											<input type="text" name="cf_name" id="name" />
+											<input type="text" name="cf_name" id="name" required/>
 										</div>
 										<div class="field half">
 											<label for="email">Email</label>
-											<input type="text" name="cf_email" id="email" />
+											<input type="text" name="cf_email" id="email" required/>
 										</div>
 										<div class="field">
 											<label for="message">Message</label>
