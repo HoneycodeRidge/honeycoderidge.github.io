@@ -1,11 +1,7 @@
-Dimension Template HTML5up
+Starting Point: Dimension HTML5up
 
-This is Dimension, a fun little one-pager with modal-ized (is that a word?) "pages"
-and a cool depth effect (click on a menu item to see what I mean). Simple, fully
-responsive, and kitted out with all the usual pre-styled elements you'd expect.
-Hope you dig it :)
+!(https://github.com/honeycoderidge/honeycoderidge.github.io/blob/main/Screen Shot 2022-07-13 at 9.51.35 PM.png?raw=true)
 
-All Concept art and various illustration displayed throughout this portfolio are owned by
 Teresa George - Honeycode Ridge
 
 
