@@ -187,12 +187,12 @@ input, select, textarea {
 		}
 
 		h1.major, h2.major, h3.major, h4.major, h5.major, h6.major {
-			border-bottom: solid 1px #ffffff;
+			border-bottom: solid 0.5px #ffffff;
 			width: -moz-max-content;
 			width: -webkit-max-content;
 			width: -ms-max-content;
 			width: max-content;
-			padding-bottom: 0.5rem;
+			padding-bottom: 0.4rem;
 			margin: 0 0 2rem 0;
 		}
 
@@ -1109,7 +1109,6 @@ input, select, textarea {
 		-webkit-transform: scale(1.0);
 		-ms-transform: scale(1.0);
 		transform: scale(1.0);
-		-webkit-backface-visibility: hidden;
 		position: fixed;
 		top: 0;
 		left: 0;
@@ -1139,11 +1138,11 @@ input, select, textarea {
 			transition-delay: 0.75s;
 			background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)), url("../../images/overlay.png");
 			background-size: auto,
- 256px 256px;
+			256px 256px;
 			background-position: center,
- center;
+			center;
 			background-repeat: no-repeat,
- repeat;
+			repeat;
 			z-index: 2;
 		}
 
@@ -1362,6 +1361,7 @@ input, select, textarea {
 					line-height: 2.75rem;
 					padding: 0 1.25rem 0 1.45rem;
 					text-transform: uppercase;
+					text-align: center;
 					letter-spacing: 0.2rem;
 					font-size: 0.8rem;
 					border-bottom: 0;
@@ -1491,7 +1491,6 @@ input, select, textarea {
 							height: 3rem;
 							line-height: 3rem;
 							min-width: 0;
-							width: 100%;
 						}
 
 				#header nav.use-middle:after {
@@ -1658,3 +1657,4 @@ input, select, textarea {
 		body.is-preload #footer {
 			opacity: 0;
 		}
+		
